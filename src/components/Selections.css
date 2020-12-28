@@ -1,0 +1,42 @@
+#Title {
+  position: relative;
+  text-align: center;
+  color: rgb(105, 179, 243);
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+}
+
+.selectionsBox {
+  position: relative;
+  top: -20px;
+  left: 50px;
+  width: 35%;
+  min-width: 400px;
+}
+
+.mode {
+  position: relative;
+  width: 70%;
+  left: 15%;
+  -moz-box-shadow: inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow: inset 0 0 5px #000000;
+  background-color: rgb(19, 9, 9);
+  color: rgb(105, 179, 243);
+}
+
+.modeSelect {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#radios {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+  font: bold;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}

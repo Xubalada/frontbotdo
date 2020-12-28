@@ -1,0 +1,12 @@
+.Title {
+  position: relative;
+  left: 475px;
+  border: 50px;
+  font-size: 30px;
+  height: 120px;
+  top: -30px;
+  color: rgb(0, 255, 21);
+  -webkit-text-stroke: 3px black;
+  /* justify-content: space-around; */
+  font-family: "Jazz LET", fantasy;
+}

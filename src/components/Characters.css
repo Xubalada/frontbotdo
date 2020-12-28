@@ -1,0 +1,287 @@
+.characterBox {
+  left: 50%;
+  position: relative;
+  min-width: 520px;
+  min-height: 500px;
+  bottom: 380px;
+  /* background-color: white; */
+}
+#titleCharacterBox {
+  position: relative;
+  text-align: center;
+  bottom: 5px;
+  font-size: 21px;
+  color: rgb(105, 179, 243);
+}
+#selectTitle {
+  position: relative;
+  float: left;
+  left: 15px;
+  bottom: 10px;
+  color: #dbdbdb;
+  font-size: 20px;
+  height: 15px;
+}
+
+#select {
+  left: 70px;
+  width: 270px;
+}
+
+.characterBoxContent {
+  display: flex;
+  flex-flow: row wrap;
+  flex-shrink: 1;
+  position: relative;
+  top: 10px;
+  width: 100%;
+  /* background-color: black; */
+}
+.characterBox > * {
+  flex: 1 1 160px;
+}
+
+#characterCell {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border: 1px solid;
+  box-shadow: 5px 5px 5px #000000;
+  position: relative;
+  width: 250px;
+  height: 60px;
+  background-color: rgba(71, 131, 98, 0.787);
+}
+#characterCell:hover {
+  filter: brightness(1.7);
+}
+
+#characterImage {
+  position: relative;
+  float: left;
+  top: 10px;
+  left: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(12, 12, 12);
+}
+
+#newCharacterCell {
+  position: relative;
+  margin-top: 5px;
+  margin-left: 100px;
+  width: 35px;
+  height: 35px;
+  top: 10px;
+}
+#newCharacterCell:hover {
+  filter: brightness(1.7);
+}
+
+.rodal {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50px;
+  color: #181010;
+}
+
+.checkButtom {
+  float: left;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  left: 20%;
+  bottom: 10px;
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+.checkButtom:hover {
+  filter: brightness(1.7);
+}
+
+.delButtom {
+  float: right;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  right: 20%;
+  bottom: 10px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+.delButtom:hover {
+  filter: brightness(1.7);
+}
+
+.modalContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.formTitle {
+  position: relative;
+  color: #ffffff;
+  font: bold;
+  font-size: 25px;
+  text-align: top;
+  height: 25px;
+  bottom: 15px;
+}
+
+.inputTitle {
+  position: relative;
+  bottom: 10px;
+  color: #747474;
+  font-size: 16px;
+  bottom: 12px;
+  float: left;
+}
+
+#input {
+  float: right;
+  position: relative;
+  border-radius: 25px;
+  border-color: #000000;
+  width: 150px;
+}
+
+.inputContainer {
+  height: 60px;
+}
+
+.delButtomCell {
+  float: right;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  right: 15px;
+  bottom: 30px;
+}
+.delButtomCell:hover {
+  filter: brightness(1.7);
+}
+
+.characterCellInfoContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 140px;
+  height: 50px;
+  left: 10px;
+  height: 50px;
+}
+
+#characterCellInfoContent {
+  position: relative;
+  width: 200px;
+  height: 15px;
+  font-size: 12px;
+  margin: 2px;
+}
+
+.infoTable {
+  position: relative;
+  float: left;
+  width: 500px;
+  height: 380px;
+  top: 130px;
+  right: 370px;
+  background-color: rgb(8, 8, 8);
+  box-shadow: 0 0 10px #000000;
+}
+
+.info-table-content {
+  position: relative;
+  float: left;
+  width: 500px;
+  height: 380px;
+  top: 130px;
+  right: 370px;
+}
+
+#profile-image {
+  float: left;
+  position: relative;
+  width: 100px;
+  height: 150px;
+}
+
+#character-info {
+  position: relative;
+  float: right;
+  right: 40px;
+  width: 340px;
+  height: 150px;
+  top: 5px;
+  box-shadow: 0 0 10px #000000;
+  background-color: black;
+}
+
+#character-resists {
+  position: absolute;
+  width: 50px;
+  top: 190px;
+  left: 20px;
+  width: 220px;
+  height: 170px;
+  box-shadow: 0 0 10px #000000;
+  background-color: black;
+}
+
+#character-profs {
+  position: absolute;
+  width: 50px;
+  left: 260px;
+  top: 190px;
+  width: 220px;
+  height: 170px;
+  box-shadow: 0 0 10px #000000;
+  background-color: black;
+}
+
+.characteristics-info {
+  display: table;
+  font-weight: bold;
+  margin-right: 50px;
+  text-align: center;
+  color: white;
+}
+
+.character-resists-info {
+  display: table;
+  font-weight: bold;
+  margin-right: 50px;
+  text-align: center;
+  color: white;
+}
+
+.job-level {
+  display: table;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: center;
+  color: white;
+}
+
+.level-prospec {
+  color: white;
+  font-size: 55px;
+  margin-right: 50px;
+}
+
+#group-content {
+  position: relative;
+  left: 70px;
+  top: 50px;
+  background-color: rgb(8, 8, 8);
+  box-shadow: 0 0 10px #000000;
+}
+
+#division-tr {
+  border: black;
+}
+#level-title {
+  color: white;
+  font-size: 55px;
+}
